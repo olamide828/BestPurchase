@@ -1,27 +1,27 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SellerUpload from "./pages/SellerUpload";
-import SingleProduct from "./pages/singleProduct";
 import ProductsPage from "./components/ProductsPage";
 import SellerDashboard from "./pages/SellerDashboard";
 import Home from "./pages/Home";
-import { BsEyeSlashFill } from "react-icons/bs";
-import { IoEye } from "react-icons/io5";
-import { useState } from "react";
+// import { BsEyeSlashFill } from "react-icons/bs";
+// import { IoEye } from "react-icons/io5";
+// import { useState } from "react";
 import ErrorPage from "./pages/ErrorPage";
 import Products from "./pages/Products";
 import SignUp from "./pages/Login";
 import Cart from "./pages/Cart";
 import Notifications from "./pages/Notifications";
+import SingleProduct from "./pages/singleProduct";
 
 function App() {
-  const [fullName, setFullName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [showPassword, setShowPassword] = useState(false);
+  // const [fullName, setFullName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
+  // const [showPassword, setShowPassword] = useState(false);
 
-  const togglePassword = () => {
-    setShowPassword(!showPassword);
-  };
+  // const togglePassword = () => {
+  //   setShowPassword(!showPassword);
+  // };
 
   return (
     <>

@@ -19,11 +19,11 @@ const SingleProduct = () => {
     <div className="p-6 grid md:grid-cols-2 gap-8">
       {/* IMAGE */}
       <img
-         src={
-            product.productImage?.[0]
+        src={
+          product.productImage?.[0]
             ? `http://localhost:4000/uploads/${product.productImage[0]}`
-        : ""
-         }
+            : ""
+        }
         alt={product.title}
         className="w-full h-96 object-contain rounded-lg"
       />
